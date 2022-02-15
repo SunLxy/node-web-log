@@ -1,0 +1,15 @@
+{
+  "name": "node-log",
+  "version": "1.0.0",
+  "main": "/lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "17.0.18",
+    "typescript": "4.5.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "version": "lerna version --exact --force-publish --no-push --no-git-tag-version",
+    "publish": "npm run build && lerna publish from-package"
+  }
+}
