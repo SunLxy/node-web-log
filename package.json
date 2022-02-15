@@ -14,6 +14,6 @@
   "scripts": {
     "build": "tsc",
     "version": "lerna version --exact --force-publish --no-push --no-git-tag-version",
-    "publish": "npm run build && lerna publish from-package"
+    "publish": "npm run build && npm  publish from-package"
   }
 }
