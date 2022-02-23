@@ -1,7 +1,7 @@
 {
   "name": "node-web-log",
-  "version": "1.0.0",
-  "main": "/lib/index.js",
+  "version": "1.0.1",
+  "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "17.0.18",
